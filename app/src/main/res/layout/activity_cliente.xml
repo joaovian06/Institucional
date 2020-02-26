@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".ClienteActivity">
+
+    <ImageView
+        android:id="@+id/image_Clientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/detalhe_cliente"></ImageView>
+
+    <TextView
+        android:id="@+id/text_Clientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/image_Clientes"
+        android:text="@string/text_Clientes"
+        android:textColor="#c6a700"
+        android:textSize="25sp">
+
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/image_Clientes"
+        android:layout_marginTop="10dp">
+
+    </View>
+
+    <ImageView
+        android:id="@+id/image_Clientes01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_Clientes"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/cliente1">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/text_Cliente01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_Clientes01"
+        android:layout_marginLeft="20dp"
+        android:text="@string/text_DescricaoCliente01"
+        android:textSize="18sp">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/image_Clientes02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_Clientes01"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/cliente2">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_Clientes02"
+        android:layout_marginLeft="20dp"
+        android:text="@string/text_DescricaoCliente02"
+        android:textSize="18sp">
+
+    </TextView>
+
+</RelativeLayout>

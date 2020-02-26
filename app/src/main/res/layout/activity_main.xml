@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/logoEmpresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"></ImageView>
+
+    <ImageButton
+        android:id="@+id/menuEmpresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_empresa"
+        android:layout_below="@id/logoEmpresa"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"></ImageButton>
+
+    <ImageButton
+        android:id="@+id/menuServico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_servico"
+        android:layout_below="@id/logoEmpresa"
+        android:layout_toRightOf="@id/menuEmpresa"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"></ImageButton>
+
+    <ImageButton
+        android:id="@+id/menuCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_cliente"
+        android:layout_below="@id/menuEmpresa"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"></ImageButton>
+
+    <ImageButton
+        android:id="@+id/menuContato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_contato"
+        android:layout_below="@id/menuServico"
+        android:layout_toRightOf="@id/menuCliente"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"></ImageButton>
+</RelativeLayout>

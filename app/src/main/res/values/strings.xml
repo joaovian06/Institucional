@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ATMEmpresaConsultoria</string>
+    <string name="about">Sobre a Empresa</string>
+    <string name="text_ScrollView">opsudgoadfoewiejrfasoi,iuhasiruhasoudh9ahdoiash, iuahsifbaisubfouahsfouhoirhoqaihv, iuhasiufbiubsfiubasfe, iubasoouufbsdoufasoijrqw099trjwoegodfinvsdpfas, ouuhweeofuhas9ifhqwarhfsafiasfasfasgtqwrfertqwasuofgfaeoisudgfiwdsugfiuewSDFHCWESDZFW,ESDFOUDSFCYzdbvuysdbfSDFSD,DGERGSIQUDBGFASIDUBGF0AYS8DF08UASDHFDS,GFEWDS8UFHWS0D8UFHW08Usfh08weudsf8u,swsoaiudfh08aushdf08uahdsf08uadshf08uadhf08uesdgfergf,sfsdgfp9SUHF0sudfh08US8HF</string>
+    <string name="text_Servicos">Serviços</string>
+    <string name="text_Consultoria">Consultoria</string>
+    <string name="text_Processos">Processos</string>
+    <string name="text_Clientes">Nossos Cliente</string>
+    <string name="text_DescricaoCliente01">Empresa de Desensenvolvimento de Sistemas</string>
+    <string name="text_DescricaoCliente02">Empresa de Auditoria</string>
+    <string name="text_Contato">Contato</string>
+    <string name="Email">Email: example@atm.com.br</string>
+    <string name="Telefone">Telefone: (99) 99999-9999</string>
+    <string name="Celular">Celular: (99) 99999-9999</string>
+</resources>
